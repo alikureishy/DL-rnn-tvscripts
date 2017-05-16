@@ -1,4 +1,9 @@
+.DS_Store
 .ipynb_checkpoints/
 __pycache__/
 *.p
 *.pyc
+tensorboard
+checkpoint
+save.*
+notes/
