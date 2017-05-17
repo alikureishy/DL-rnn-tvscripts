@@ -12621,11 +12621,11 @@ Tests Passed
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Number of Epochs</span>
-<span class="n">num_epochs</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">num_epochs</span> <span class="o">=</span> <span class="mi">17</span>
 <span class="c1"># Batch Size</span>
 <span class="n">batch_size</span> <span class="o">=</span> <span class="mi">128</span>
 <span class="c1"># RNN Size</span>
@@ -12666,7 +12666,7 @@ Tests Passed
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12746,7 +12746,7 @@ Tests Passed
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12799,41 +12799,66 @@ Tests Passed
 (&#39;Text length: &#39;, 69101)
 (&#39;Num batches:&#39;, 35)
 (&#39;Processed data shape: &#39;, (35, 2, 128, 15))
-Epoch   0 Batch    0/35   train_loss = 11.609
-Epoch   0 Batch   10/35   train_loss = 11.935
-Epoch   0 Batch   20/35   train_loss = 8.274
-Epoch   0 Batch   30/35   train_loss = 6.830
-Epoch   1 Batch    5/35   train_loss = 5.443
-Epoch   1 Batch   15/35   train_loss = 5.043
-Epoch   1 Batch   25/35   train_loss = 4.806
-Epoch   2 Batch    0/35   train_loss = 4.379
-Epoch   2 Batch   10/35   train_loss = 4.347
-Epoch   2 Batch   20/35   train_loss = 4.161
-Epoch   2 Batch   30/35   train_loss = 4.090
-Epoch   3 Batch    5/35   train_loss = 3.779
-Epoch   3 Batch   15/35   train_loss = 3.618
-Epoch   3 Batch   25/35   train_loss = 3.475
-Epoch   4 Batch    0/35   train_loss = 3.107
-Epoch   4 Batch   10/35   train_loss = 3.141
-Epoch   4 Batch   20/35   train_loss = 2.868
-Epoch   4 Batch   30/35   train_loss = 2.774
-Epoch   5 Batch    5/35   train_loss = 2.617
-Epoch   5 Batch   15/35   train_loss = 2.395
-Epoch   5 Batch   25/35   train_loss = 2.286
-Epoch   6 Batch    0/35   train_loss = 1.889
-Epoch   6 Batch   10/35   train_loss = 1.873
-Epoch   6 Batch   20/35   train_loss = 1.727
-Epoch   6 Batch   30/35   train_loss = 1.607
-Epoch   7 Batch    5/35   train_loss = 1.536
-Epoch   7 Batch   15/35   train_loss = 1.349
-Epoch   7 Batch   25/35   train_loss = 1.360
-Epoch   8 Batch    0/35   train_loss = 1.242
-Epoch   8 Batch   10/35   train_loss = 1.134
-Epoch   8 Batch   20/35   train_loss = 1.098
-Epoch   8 Batch   30/35   train_loss = 1.055
-Epoch   9 Batch    5/35   train_loss = 1.053
-Epoch   9 Batch   15/35   train_loss = 1.029
-Epoch   9 Batch   25/35   train_loss = 0.914
+Epoch   0 Batch    0/35   train_loss = 11.525
+Epoch   0 Batch   10/35   train_loss = 12.307
+Epoch   0 Batch   20/35   train_loss = 8.062
+Epoch   0 Batch   30/35   train_loss = 6.709
+Epoch   1 Batch    5/35   train_loss = 5.509
+Epoch   1 Batch   15/35   train_loss = 5.109
+Epoch   1 Batch   25/35   train_loss = 4.838
+Epoch   2 Batch    0/35   train_loss = 4.420
+Epoch   2 Batch   10/35   train_loss = 4.364
+Epoch   2 Batch   20/35   train_loss = 4.305
+Epoch   2 Batch   30/35   train_loss = 4.114
+Epoch   3 Batch    5/35   train_loss = 3.831
+Epoch   3 Batch   15/35   train_loss = 3.694
+Epoch   3 Batch   25/35   train_loss = 3.540
+Epoch   4 Batch    0/35   train_loss = 3.246
+Epoch   4 Batch   10/35   train_loss = 3.224
+Epoch   4 Batch   20/35   train_loss = 3.043
+Epoch   4 Batch   30/35   train_loss = 2.886
+Epoch   5 Batch    5/35   train_loss = 2.716
+Epoch   5 Batch   15/35   train_loss = 2.482
+Epoch   5 Batch   25/35   train_loss = 2.384
+Epoch   6 Batch    0/35   train_loss = 2.099
+Epoch   6 Batch   10/35   train_loss = 2.000
+Epoch   6 Batch   20/35   train_loss = 1.822
+Epoch   6 Batch   30/35   train_loss = 1.818
+Epoch   7 Batch    5/35   train_loss = 1.537
+Epoch   7 Batch   15/35   train_loss = 1.467
+Epoch   7 Batch   25/35   train_loss = 1.406
+Epoch   8 Batch    0/35   train_loss = 1.314
+Epoch   8 Batch   10/35   train_loss = 1.218
+Epoch   8 Batch   20/35   train_loss = 1.133
+Epoch   8 Batch   30/35   train_loss = 1.114
+Epoch   9 Batch    5/35   train_loss = 1.065
+Epoch   9 Batch   15/35   train_loss = 1.010
+Epoch   9 Batch   25/35   train_loss = 0.971
+Epoch  10 Batch    0/35   train_loss = 1.007
+Epoch  10 Batch   10/35   train_loss = 0.932
+Epoch  10 Batch   20/35   train_loss = 0.816
+Epoch  10 Batch   30/35   train_loss = 0.838
+Epoch  11 Batch    5/35   train_loss = 0.774
+Epoch  11 Batch   15/35   train_loss = 0.862
+Epoch  11 Batch   25/35   train_loss = 0.702
+Epoch  12 Batch    0/35   train_loss = 0.690
+Epoch  12 Batch   10/35   train_loss = 0.609
+Epoch  12 Batch   20/35   train_loss = 0.591
+Epoch  12 Batch   30/35   train_loss = 0.560
+Epoch  13 Batch    5/35   train_loss = 0.505
+Epoch  13 Batch   15/35   train_loss = 0.529
+Epoch  13 Batch   25/35   train_loss = 0.461
+Epoch  14 Batch    0/35   train_loss = 0.491
+Epoch  14 Batch   10/35   train_loss = 0.455
+Epoch  14 Batch   20/35   train_loss = 0.424
+Epoch  14 Batch   30/35   train_loss = 0.404
+Epoch  15 Batch    5/35   train_loss = 0.404
+Epoch  15 Batch   15/35   train_loss = 0.433
+Epoch  15 Batch   25/35   train_loss = 0.377
+Epoch  16 Batch    0/35   train_loss = 0.375
+Epoch  16 Batch   10/35   train_loss = 0.390
+Epoch  16 Batch   20/35   train_loss = 0.363
+Epoch  16 Batch   30/35   train_loss = 0.339
 Model Trained and Saved
 </pre>
 </div>
@@ -12855,7 +12880,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12881,7 +12906,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12920,7 +12945,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">get_tensors</span><span class="p">(</span><span class="n">loaded_graph</span><span class="p">):</span>
@@ -12976,7 +13001,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
@@ -13040,7 +13065,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">gen_length</span> <span class="o">=</span> <span class="mi">200</span>
@@ -13101,23 +13126,20 @@ Model Trained and Saved
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>moe_szyslak: thanks, homer. if anybody needs me the party boat has a moon-bounce.
-lenny_leonard: aw, i&#39;m glad you&#39;re back, you&#39;re supposed to be a lot of bars... shut up!
-tv_husband:(from tv) oh my god.
-moe_szyslak: hey, you guys aren&#39;t from in a jar in the back of this!
-agnes_skinner: oh!
-homer_simpson: happy!
-moe_szyslak: okay. gheet, i need a beer.
-moe_szyslak: g&#39;on, take it all. get it out there!
-chief_wiggum: nice beating, lance. especially around the eyes....
-karaoke_machine:(japanese voice) there...
-lloyd: come on, guys, i was just a reliable source. not&#34; sauce,&#34;&#34; source&#34;&#34; source&#34;&#34;&#34;!&#34; source&#34;&#34; for&#34;!&#34;
-barney_gumble: hello?!
-
-
-lisa_simpson:(tipsy) marge, come here.
-young_homer: marge, i loves youse. will youse be mines?
-marge_simpson:(talk-sings) i stopped my crying / why,
+<pre>moe_szyslak:(on phone) dad, his i&#39;ll have to offer in the way of salary?
+moe_szyslak:(stunned) i fire dollars to the simplest moron.
+homer_simpson: oh, moe. my wife gave me the elder.
+barney_gumble:(sighs) chief! i give me the kids.
+homer_simpson: eh, do i reality work your cow mint?
+lenny_leonard:(calling out) uh, his pocket.
+lenny_leonard: what about you, quit your money.
+moe_szyslak: we&#39;re workin&#39; on that roach situation, i really wanna all is a published, can joey kramer?
+lenny_leonard: quick, moe. or as you, uh, another. uh, let me just show you where everything the bart_simpson: but it might.
+homer_simpson:(singing) baby, glove slap...
+carl_carlson: it was really upset which one of a walking old here.
+moe_szyslak: aw, that&#39;s the barbed wire. heh. first i need directions to the plow...
+moe_szyslak: ma&#39;am.
+apu_nahasapeemapetilon: you can&#39;t talk(chanting) i&#39;m-so-stupid!
 </pre>
 </div>
 </div>
@@ -13125,6 +13147,29 @@ marge_simpson:(talk-sings) i stopped my crying / why,
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Thoughts">Thoughts<a class="anchor-link" href="#Thoughts">&#182;</a></h1><p>This was an interesting introduction to RNNs. It's great to see text being generated by the NN at the end!</p>
+<p>I stumbled a bit on this project, partly because of other obligations that delayed me by 1 month in the project submission, but also because of not being able to debug the inner workings of the NN. The forums proved very helpful, which is how I learned that my fully connected layer was not being setup correctly. I had to make the following corrections to it:</p>
+<ul>
+<li>Set the activation funtion to 'None' (indicating a linear activation). Previously I had set it to tf.sigmoid, which was not what the project had apparently prescribed. Also, not mentioning any activation function would end up using a RELU. So setting it to None was the key.</li>
+<li>Set the weights_initializer and bias_initializer to random_normal_initializer().</li>
+<li>Reduce the # of layers in the MultiRNNCell to 1 (not 10, as I had done at first). Increasing the # of layers hits the training capacity of the network tremendously, causing it to flatten out at a higher loss value. I need to explore why that is the case. Your thoughts on why this happened are welcome.</li>
+<li>Set the # of neurons in the RNN to be a high number. I played with small #s like 100, 150, 256 etc, but it appears that an even higher number was necessary. Presently I am using 1024 neurons, which is what was required to get the network to learn within 18 epochs -- enough to get a loss of &lt; 0.5!</li>
+</ul>
+<p>These 3 questions linger for me after this project:</p>
+<ul>
+<li>Why does increasing the # of layers in the RNN create a barrier to learning? Since I'm using LSTMs, I thought the vanishing gradient issue was taken care of?</li>
+<li>How do I debug the NN using TensorBoard and Summary operations when using the contrib.layers package and the convenience functions like fully_connected(), without having to manually dig out the corresponding tensors? I was hopgin to find an easy out-of-box OOP/API-friendly way of being able to attach some 'monitors' to the contrib layers, but was unable to find any documentation beyond the link here: <a href="https://www.tensorflow.org/versions/r0.10/tutorials/monitors/">https://www.tensorflow.org/versions/r0.10/tutorials/monitors/</a>. Any additional resource(s) that shed light on this would be welcome. More specifically, I was hoping to be able to monitor/summarize histograms for the weights/biases of the fully connected layer that I was generating using the contrib.layers package's fully_connected() API. That might have helped me narrow down the initialization issues above much faster than having to consult the forums.</li>
+<li>If I were to train the network until the loss was close to 0, and were to then run it on the first word of the existing script, and then ONLY pick the vocabulary word with the <em>highest</em> probability on each iteration, would it then essentially generate the original script itself? From what I see, there are only 2 things preventing it from regenerating the same script -- a loss value &gt; 0, and the probabilistic selection of words based on the probability logits (as done by the pick_word() method).</li>
+</ul>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
